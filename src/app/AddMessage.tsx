@@ -8,7 +8,7 @@ export default function AddMessageComponent() {
       <button
         type="button"
         className="p-4 bg-white rounded-md"
-        onClick={() => AddMessage}
+        onClick={() => AddMessage()}
       >
         Aggiungi messaggio
       </button>

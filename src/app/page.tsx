@@ -24,9 +24,8 @@ export default async function Home() {
 
       <div className="mt-10"></div>
 
-      {messages.map((message) => {return(<p key={message}>{message}</p>)})}
-
       <AddMessageComponent />
+      <Messages messages={messages} />
       
     </div>
   );
