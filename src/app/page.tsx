@@ -15,6 +15,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
+      
       <p className="text-4xl font-bold text-center">
         AppDir experiment with server actions and{" "}
         <a className="underline" href="https://github.com/pingdotgg/zact">
@@ -30,3 +31,5 @@ export default async function Home() {
     </div>
   );
 }
+
+
